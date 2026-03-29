@@ -1,0 +1,130 @@
+[
+    {
+        "id": "dp-101",
+        "name": "DesignPulse",
+        "description": "A massive library of high-resolution UI kits and 3D assets for modern designers.",
+        "price": 12.00,
+        "period": "monthly",
+        "tag": "New",
+        "tagType": "primary",
+        "features": [
+            "500+ UI Elements",
+            "Figma Auto-Layout",
+            "Commercial License",
+            "Weekly Updates"
+        ],
+        "icon": "palette.png"
+    },
+    {
+        "id": "dp-102",
+        "name": "CodeArmor",
+        "description": "Automated security scanner for private repositories to find and fix vulnerabilities.",
+        "price": 199.00,
+        "period": "yearly",
+        "tag": "Best Seller",
+        "tagType": "success",
+        "features": [
+            "GitHub Integration",
+            "Real-time Alerts",
+            "PDF Audit Reports",
+            "SCA Scanning"
+        ],
+        "icon": "terminal.png"
+    },
+    {
+        "id": "dp-103",
+        "name": "SoundWave Max",
+        "description": "Royalty-free music and SFX library for content creators and filmmakers.",
+        "price": 45.00,
+        "period": "one-time",
+        "tag": "Popular",
+        "tagType": "warning",
+        "features": [
+            "10k+ Tracks",
+            "Lossless Quality",
+            "No Copyright Strikes",
+            "Multi-platform Use"
+        ],
+        "icon": "musical-note.png"
+    },
+    {
+        "id": "dp-104",
+        "name": "WriteRight AI",
+        "description": "The ultimate ghostwriting assistant for bloggers and technical writers.",
+        "price": 25.00,
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "info",
+        "features": [
+            "Plagiarism Checker",
+            "SEO Optimization",
+            "Tone Adjuster",
+            "Markdown Export"
+        ],
+        "icon": "pencil.png"
+    },
+    {
+        "id": "dp-105",
+        "name": "FitSync Pro",
+        "description": "Comprehensive workout data tracker that syncs with all major wearable devices.",
+        "price": 9.99,
+        "period": "monthly",
+        "tag": "Top Rated",
+        "tagType": "danger",
+        "features": [
+            "Sleep Analysis",
+            "Diet Logging",
+            "Custom Plans",
+            "Community Challenges"
+        ],
+        "icon": "activity.png"
+    },
+    {
+        "id": "dp-106",
+        "name": "MarketMind",
+        "description": "Real-time stock and crypto sentiment analysis using machine learning.",
+        "price": 499.00,
+        "period": "yearly",
+        "tag": "Pro",
+        "tagType": "secondary",
+        "features": [
+            "API Webhooks",
+            "Historical Data",
+            "Custom Alerts",
+            "Portfolio Tracking"
+        ],
+        "icon": "trend.png"
+    },
+    {
+        "id": "dp-107",
+        "name": "StreamStack",
+        "description": "All-in-one broadcasting tool for streaming to 10+ platforms simultaneously.",
+        "price": 150.00,
+        "period": "one-time",
+        "tag": "Value",
+        "tagType": "success",
+        "features": [
+            "4K Streaming",
+            "Chat Overlay",
+            "Custom Scenes",
+            "Cloud Recording"
+        ],
+        "icon": "multimedia.png"
+    },
+    {
+        "id": "dp-108",
+        "name": "MailMeld",
+        "description": "Cold email automation tool with high deliverability and warm-up features.",
+        "price": 39.00,
+        "period": "monthly",
+        "tag": "B2B Choice",
+        "tagType": "primary",
+        "features": [
+            "Unlimited Leads",
+            "Drip Campaigns",
+            "A/B Testing",
+            "Email Warm-up"
+        ],
+        "icon": "mail.png"
+    }
+]
