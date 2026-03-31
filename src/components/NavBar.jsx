@@ -1,8 +1,9 @@
 import React from "react";
+import shopingCart from "../../src/assets/shopping-cart.png";
 
 const NavBar = () => {
   return (
-    <div className="bg-base-100 shadow-sm sticky top-0">
+    <div className="bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar w-full md:w-[85%] max-w-300 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -74,7 +75,7 @@ const NavBar = () => {
         <div className="navbar-end lg:gap-2">
           <div className="relative btn btn-ghost">
             <span className="absolute top-0 left-7 text-xs bg-red-500 rounded-full text-white px-1">0</span>
-            <img src="../../src/assets/shopping-cart.png" width="20px" alt="" srcset="" />
+            <img src={shopingCart} width="20px" />
           </div>
 
           <button className="btn btn-ghost p-2 lg:p-4">login</button>

@@ -13,7 +13,7 @@
             "Commercial License",
             "Weekly Updates"
         ],
-        "icon": "palette.png"
+        "icon": "https://i.ibb.co.com/hxhx3NW9/palette.png"
     },
     {
         "id": "dp-102",
@@ -29,7 +29,7 @@
             "PDF Audit Reports",
             "SCA Scanning"
         ],
-        "icon": "terminal.png"
+        "icon": "https://i.ibb.co.com/XRbtcDM/terminal.png"
     },
     {
         "id": "dp-103",
@@ -45,7 +45,7 @@
             "No Copyright Strikes",
             "Multi-platform Use"
         ],
-        "icon": "musical-note.png"
+        "icon": "https://i.ibb.co.com/Q79hLs30/musical-note.png"
     },
     {
         "id": "dp-104",
@@ -61,7 +61,7 @@
             "Tone Adjuster",
             "Markdown Export"
         ],
-        "icon": "pencil.png"
+        "icon": "https://i.ibb.co.com/TBQ6F4KJ/pencil.png"
     },
     {
         "id": "dp-105",
@@ -77,7 +77,7 @@
             "Custom Plans",
             "Community Challenges"
         ],
-        "icon": "activity.png"
+        "icon": "https://i.ibb.co.com/jBrfSmM/activity.png"
     },
     {
         "id": "dp-106",
@@ -93,7 +93,7 @@
             "Custom Alerts",
             "Portfolio Tracking"
         ],
-        "icon": "trend.png"
+        "icon": "https://i.ibb.co.com/qYW0QKLY/trend.png"
     },
     {
         "id": "dp-107",
@@ -109,7 +109,7 @@
             "Custom Scenes",
             "Cloud Recording"
         ],
-        "icon": "multimedia.png"
+        "icon": "https://i.ibb.co.com/HTBJw54N/multimedia.png"
     },
     {
         "id": "dp-108",
@@ -125,6 +125,6 @@
             "A/B Testing",
             "Email Warm-up"
         ],
-        "icon": "mail.png"
+        "icon": "https://i.ibb.co.com/C34PM9Jv/mail.png"
     }
 ]

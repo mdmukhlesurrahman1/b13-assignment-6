@@ -6,18 +6,18 @@ const Statistics = () => {
             <div className='w-[95%] md:w-[85%] max-w-300 mx-auto grid grid-cols-3 text-white text-center'>
 
                 <div className='border-r-3 border-gray-300'>
-                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-4'>50K+</h2>
-                    <p className='lg:text-xl'>Active Users</p>
+                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-2'>50K+</h2>
+                    <p className='text-xs lg:text-xl'>Active Users</p>
                 </div>
 
                 <div className='border-r-3 border-gray-300'>
-                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-4'>200+</h2>
-                    <p className='lg:text-xl'>Premium Tools</p>
+                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-2'>200+</h2>
+                    <p className='text-xs lg:text-xl'>Premium Tools</p>
                 </div>
 
                 <div>
-                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-4'>4.9</h2>
-                    <p className='lg:text-xl'>Rating</p>
+                    <h2 className='font-extrabold text-3xl lg:text-6xl mb-2'>4.9</h2>
+                    <p className='text-xs lg:text-xl'>Rating</p>
                 </div>
 
             </div>
