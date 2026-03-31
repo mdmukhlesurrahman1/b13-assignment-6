@@ -1,7 +1,7 @@
 import React from "react";
 import shopingCart from "../../src/assets/shopping-cart.png";
 
-const NavBar = () => {
+const NavBar = ({cartItems}) => {
   return (
     <div className="bg-base-100 shadow-sm sticky top-0 z-50">
       <div className="navbar w-full md:w-[85%] max-w-300 mx-auto">
@@ -49,7 +49,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <h1 class="text-xl lg:text-2xl font-black bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ml-2">
+          <h1 className="text-xl lg:text-2xl font-black bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ml-2">
             DigiTools
           </h1>
         </div>
@@ -74,7 +74,7 @@ const NavBar = () => {
         </div>
         <div className="navbar-end lg:gap-2">
           <div className="relative btn btn-ghost">
-            <span className="absolute top-0 left-7 text-xs bg-red-500 rounded-full text-white px-1">0</span>
+            <span className="absolute top-0 left-7 text-xs bg-red-500 rounded-full text-white px-1">{cartItems.length !=0 && cartItems.length}</span>
             <img src={shopingCart} width="20px" />
           </div>
 

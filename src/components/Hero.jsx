@@ -22,16 +22,16 @@ const Hero = () => {
           Products
         </p>
         <div className="flex gap-4">
-          <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-full">
+          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold rounded-full">
             Explore Products
-          </a>
+          </button>
           <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full p-0.5">
-            <a className="btn font-bold rounded-full">
+            <button className="btn font-bold rounded-full">
               <img src={play} />
               <p className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                 Watch Demo
               </p>
-            </a>
+            </button>
           </div>
         </div>
       </div>

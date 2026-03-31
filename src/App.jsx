@@ -1,11 +1,11 @@
 import "./App.css";
-import { ToastContainer, toast } from "react-toastify";
+import { useState } from "react";
+import { Suspense } from "react";
+import { ToastContainer } from "react-toastify";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Statistics from "./components/Statistics";
 import ProductsSection from "./components/ProductsSection";
-import { Suspense } from "react";
-// import { useState } from "react";
 
 const fetchProducts = async () => {
   const res = await fetch("/data.json");
@@ -14,24 +14,23 @@ const fetchProducts = async () => {
 
 function App() {
   const productsPromise = fetchProducts();
-  const notify = () => toast.success("Wow so easy!");
-  // const [tab, setTab] = useState("Products");
+  const [cartItems, setCartItems] = useState([]);
 
   return (
     <>
-      <NavBar />
+      <NavBar cartItems={cartItems} />
       <Hero />
       <Statistics />
 
       <Suspense
-        fallback={<span className="loading loading-dots loading-xl"></span>}
+        fallback={
+          <div className="flex justify-center items-center h-50">
+            <span className="loading loading-dots loading-xl"></span>
+          </div>
+        }
       >
-        <ProductsSection productsPromise={productsPromise} />
+        <ProductsSection productsPromise={productsPromise} cartItems={cartItems} setCartItems={setCartItems} />
       </Suspense>
-
-      <button onClick={notify} className="btn btn-success text-white font-bold">
-        Test
-      </button>
 
       <ToastContainer />
     </>
