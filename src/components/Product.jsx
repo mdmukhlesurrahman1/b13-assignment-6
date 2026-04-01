@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { toast } from "react-toastify";
 import tik from "../../src/assets/tik.png";
 
@@ -13,13 +12,14 @@ const tagStyles = {
 };
 
 const Product = ({ product, setCartItems, cartItems }) => {
-  const [isAdded, setIsAdded] = useState(false);
+  const isAlreadyInCart = cartItems.some((item) => item.id === product.id);
   const notify = () => toast.success("✔ Added to Cart!");
 
   const handleBuyNow = () => {
-    setIsAdded(true);
-    notify();
-    setCartItems([...cartItems, product]);
+    if (!isAlreadyInCart) {
+      setCartItems([...cartItems, product]);
+      notify();
+    }
   };
   return (
     <div className="card bg-base-200 shadow-sm">
@@ -49,11 +49,16 @@ const Product = ({ product, setCartItems, cartItems }) => {
         </div>
 
         <button
+          
           onClick={handleBuyNow}
-          disabled={isAdded}
-          className={`btn text-white font-bold rounded-full ${isAdded ? "bg-linear-to-r from-[#009118] to-[#008844]" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"}`}
+          disabled={isAlreadyInCart}
+          className={`btn text-white font-bold rounded-full ${
+            isAlreadyInCart
+              ? "bg-linear-to-r from-[#009118] to-[#008844]"
+              : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
+          }`}
         >
-          {isAdded ? "✔ Added to Cart" : "Buy Now"}
+          {isAlreadyInCart ? "✔ Added to Cart" : "Buy Now"}
         </button>
       </div>
     </div>

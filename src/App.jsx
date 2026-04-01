@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Statistics from "./components/Statistics";
 import ProductsSection from "./components/ProductsSection";
+import GetStarted from "./components/GetStarted";
 
 const fetchProducts = async () => {
   const res = await fetch("/data.json");
@@ -29,9 +30,14 @@ function App() {
           </div>
         }
       >
-        <ProductsSection productsPromise={productsPromise} cartItems={cartItems} setCartItems={setCartItems} />
+        <ProductsSection
+          productsPromise={productsPromise}
+          cartItems={cartItems}
+          setCartItems={setCartItems}
+        />
       </Suspense>
 
+      <GetStarted />
       <ToastContainer />
     </>
   );
