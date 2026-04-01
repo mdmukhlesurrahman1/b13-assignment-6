@@ -1,16 +1,27 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    # 🛠️ Digitools Platform
 
-Currently, two official plugins are available:
+A modern and user-friendly web application designed to simplify daily digital tasks. This project is a part of my specialized assignment and showcases core web development skills including the MERN stack fundamentals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+Check out the live project here:  
+[Digitools Platform Live Link](https://digitools-platform-bymukhles.netlify.app/)
 
-## React Compiler
+## 📖 Project Overview
+The main goal of this platform is to provide a collection of essential digital tools in one place. It is built focusing on clean UI, smooth user experience, and full responsiveness across all devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Modern UI/UX:** A clean and professional design for better accessibility.
+* **Fully Responsive:** Optimized for mobile, tablet, and desktop screens.
+* **Fast Performance:** Lightweight and optimized for quick loading times.
+* **Interactive Tools:** Dynamic features implemented using modern JavaScript logic.
+* **Pixel-perfect:** implementation from Figma (no copy-paste)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Tech Stack
+This project was built using the following technologies:
+* **HTML5 & CSS3** - For structural semantic layout.
+* **Tailwind CSS** - For modern, utility-first styling.
+* **Daisy UI** - For use useble Component.
+* **JavaScript (ES6+)** - For dynamic functionality and interactivity.
+* **React** - For component-based architecture.
+* **React -Toastify** (NPM Package) - For Use Beutifull Toast In Button Clicking.
