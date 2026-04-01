@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Statistics from "./components/Statistics";
 import ProductsSection from "./components/ProductsSection";
 import GetStarted from "./components/GetStarted";
+import Pricing from "./components/Pricing";
 
 const fetchProducts = async () => {
   const res = await fetch("/data.json");
@@ -38,6 +39,8 @@ function App() {
       </Suspense>
 
       <GetStarted />
+      <Pricing />
+
       <ToastContainer />
     </>
   );
